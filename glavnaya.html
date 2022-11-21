@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./glavnaya.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Совет</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img alt="rasm" src="./img/лого.png">
+        </div>
+        <div class="nav__right">
+            <div><a>главная</a><button>.</button></div>
+            <div><a href="./novosti.html">новости</a></div>
+            <div><a href="#">о совете</a></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_item1">
+            <div>
+                <div>
+                    <h4>Центральный</h4>
+                    <h1>Совет <br> Ветеранов</h1>
+                </div>
+            </div>
+            <div>
+                <button>связаться с нами</button>
+                <p>Адрес:   Улица Коммуны 135</p>
+                <p>Телефон:    225 41 31</p>
+            </div>
+        </div>
+        <!-- Slider-->
+    <section class="slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/image 17.png" alt="gf"></div>
+              <div class="swiper-slide"><img src="./img/заставкаКюбилею55лет 1.png" alt="gf"></div>
+              <div class="swiper-slide"><img src="./img/SAM_0104 1.png" alt="gf"></div>
+      
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div><br>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/SAM_0061 - копия.png" alt="gf"></div>
+              <div class="swiper-slide"><img src="./img/SAM_2181 - копия.png" alt="gf"></div>
+              <div class="swiper-slide"><img src="./img/IMG_20220530_120424 1.png" alt="gf"></div>
+    
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+        <div class="main__item4">
+            <div class="container_3">
+                <h1>Страницы истории</h1>
+                <p>Ветеранская организация Центрального района города Челябинска, решение о создании которой было принято на первом областном слете ветеранов 15 июня 1966 года, появилась в том же году. Избран районный совет ветеранов партии, комсомола, войн и труда в составе 14 человек.</p>
+                <button>ЧИТАТЬ</button>
+            </div>
+        </div>
+        <div class="main__item5">
+            <div class="container_4">
+                <div class="container_4-1">
+                    <div>
+                        <p class="a">В этом месяце</p>
+                    </div>
+                    <div class="b">
+                        <p>Человек месяца: 
+                        <p>85-летие — важный рубеж жизни</p></p>
+                        <p class="p">
+                            Скиннер выдвинул концепцию
+                           "оперантного", подкрепляемого
+                           научения, в которой фрустрация
+                           одинаково понимает 
+                           сублимированный эскапизм, что 
+                           вызвало развитие функционализма и 
+                           сравнительно-психологических 
+                           исследований поведения. Однако 
+                           Э.Дюркгейм утверждал, что закон 
+                           начинает объект. Чувство 
+                           психологически отражает 
+                           сублимированный объект. Конечно, 
+                           нельзя не принять во внимание тот 
+                           факт, что ретардация осознаёт 
+                           ускоряющийся стресс. Как отмечает 
+                           Жан...</p>
+                            <button>ЧИТАТЬ</button>
+                    </div>
+                </div>
+                <div class="container_4-2">
+                    <div><img alt="rasm" src="./img/03ИрСергКальметьева - копия.png"></div>
+                    <div>
+                        <p>ветеран</p>
+                        <p>Ирина Кальметьева</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="footer_item1">
+            <div class="footer_item1-1">
+                <div>Адрес:   Улица Коммуны 135</div>
+                <div>
+                    <div>
+                        <div>Телефон:    225 41 31</div><br>
+                        <div>Все права защищены ©2021</div>
+                    </div>
+                    <div><img src="./img/лого.png" alt=""></div>
+                </div>
+            </div>
+            <div class="footer_item1-2">
+                <p>Отдельная благодарность:</p>
+            </div>
+        </div>
+        <div class="footer_item2">
+            <p>Этот сайт был разработан <br> дизанерами <b>Ulyanov.<b>U</b>nity</b></p>
+        </div>
+    </footer>
+</body>
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
